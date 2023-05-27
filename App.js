@@ -18,11 +18,11 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="salas" component={SalasList} />
-        <Stack.Screen name="reservas" component={Reservas} />
         <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="SalasForm" component={SalasForm} />
         <Stack.Screen name="auth" component={Login} />
+        <Stack.Screen name="salas" component={SalasList} />
+        <Stack.Screen name="SalasForm" component={SalasForm} />
+        <Stack.Screen name="reservas" component={Reservas} />
         <Stack.Screen name="Dashboard" component={Dashboard} />
       </Stack.Navigator>
     </NavigationContainer>

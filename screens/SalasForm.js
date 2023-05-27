@@ -51,7 +51,7 @@ import {
       
       try {
         await addDoc(collection(database, 'salas'), sala)
-      navigation.navigate("Dashboard");
+      navigation.navigate("salas");
       } catch (error) {
         console.log(error)
       }
